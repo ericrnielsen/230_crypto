@@ -54,7 +54,7 @@ def main():
         # Get coin data (Date, Open, High, Low, Close, Volume)
         data_df = get_crypto_data(crypto, 'USD', START_DATE, END_DATE)
         # Save to csv file
-        data_df.to_csv('price_data/%s.csv' % (crypto))
+        data_df.to_csv('%s.csv' % (crypto))
 
 if __name__ == '__main__':
 	main()

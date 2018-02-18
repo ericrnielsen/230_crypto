@@ -10,8 +10,8 @@ SUBREDDITS = [  "bitcoin", "ethereum", "litecoin",
                 "btc", "bitcoinmarkets", 
                 "cryptocurrency", "cryptomarkets", "altcoin", "cryptocurrencies", "blockchain"]
 
-RAW_FILEPATH = "data/raw/"
-LABELED_FILEPATH = "data/labeled/"
+RAW_FILEPATH = "raw/"
+LABELED_FILEPATH = "labeled/"
 ALL_SUB_RAW_FILE = "all_sub_raw.csv"
 ALL_SUB_LABELED_FILE = "all_sub_labeled"
 
