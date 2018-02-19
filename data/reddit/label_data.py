@@ -12,8 +12,10 @@ SUBREDDITS = [  "bitcoin", "ethereum", "litecoin",
 
 RAW_FILEPATH = "raw/"
 LABELED_FILEPATH = "labeled/"
-ALL_SUB_RAW_FILE = "all_sub_raw.csv"
-ALL_SUB_LABELED_FILE = "all_sub_labeled"
+#ALL_SUB_RAW_FILE = "all_sub_raw.csv"
+#ALL_SUB_LABELED_FILE = "all_sub_labeled"
+ALL_SUB_RAW_FILE = "score10_all_sub_raw.csv"
+ALL_SUB_LABELED_FILE = "score10_all_sub_labeled"
 
 BTC_PRICE_FILE = "../price_data/BTC.csv"
 ETH_PRICE_FILE = "../price_data/ETH.csv"

@@ -76,7 +76,7 @@ def scrape_subreddit(sub_name, start, end):
 ############################################################################
 # Combine all posts into single csv file
 ############################################################################
-def combine_subreddits(frames):
+def combine_subreddits(frames, min_score, min_comments):
 
     # If needing to read in all raw data from files
     if not frames:
@@ -90,6 +90,15 @@ def combine_subreddits(frames):
     # Combine into single df
     subs_df = pd.concat(frames, ignore_index=True)
 
+    # If using thresholds to reduce dataset size
+    filename_begin = RAW_FILEPATH
+    if min_score:
+        subs_df = subs_df[subs_df['score'] >= min_score]
+        filename_begin += 'score' + str(min_score) + '_'
+    if min_comments:
+        subs_df = subs_df[subs_df['num_comments'] >= min_comments]
+        filename_begin += 'comments' + str(min_comments) + '_'
+
     # Sort values in df by descending date
     subs_df['date'] = pd.to_datetime(subs_df['date'])   # Convert date column to datetime objs
     subs_df = subs_df.sort_values(['date'], ascending=[False])           # Sort by descending date
@@ -99,7 +108,30 @@ def combine_subreddits(frames):
     # Save all posts to a single raw file
     print "Total posts: %s" % subs_df.shape[0]
     subs_df = subs_df.reindex(columns=["date", "subreddit", "score", "num_comments", "title"])
-    subs_df.to_csv(RAW_FILEPATH + "all" + "_sub_raw.csv")
+    subs_df.to_csv(filename_begin + ALL_SUB_RAW_FILE)
+
+############################################################################
+# Check what setting different score and num_comments thresholds do to dataset size
+############################################################################
+def check_thresholds():
+
+    frames = []
+    for sub_name in SUBREDDITS:
+        sub_df = pd.read_csv(RAW_FILEPATH + sub_name + "_sub_raw.csv")
+        sub_df['subreddit'] = sub_name
+        frames.append(sub_df)
+    subs_df = pd.concat(frames, ignore_index=True)
+
+    # Using different score thresholds
+    for min_score in [0, 1, 5, 10, 15, 20, 50, 100]:
+        new_df = subs_df[subs_df['score'] >= min_score]
+        print "[Min Score: %d] Total posts: %s" % (min_score, new_df.shape[0])
+
+    # Using different num_comments thresholds
+    print ""
+    for min_comment in [0, 1, 5, 10, 15, 20, 50, 100]:
+        new_df = subs_df[subs_df['num_comments'] >= min_comment]
+        print "[Min Num Comments: %d] Total posts: %s" % (min_comment, new_df.shape[0])
 
 ############################################################################
 # Main
@@ -130,7 +162,13 @@ def main():
     # JUST TO COMBINE DATA
     #################################
     if (True):
-        combine_subreddits(None)
+        combine_subreddits(None, min_score=10, min_comments=None)
+
+    #################################
+    # TESTING DIFFERENT THRESHOLDS
+    #################################
+    if (False):
+        check_thresholds()
 
 if __name__ == '__main__':
 	main()

@@ -1,0 +1,17 @@
+[Min Score: 0] Total posts: 397411
+[Min Score: 1] Total posts: 336301
+[Min Score: 5] Total posts: 164679
+[Min Score: 10] Total posts: 107384
+[Min Score: 15] Total posts: 84063
+[Min Score: 20] Total posts: 70860
+[Min Score: 50] Total posts: 39834
+[Min Score: 100] Total posts: 23412
+
+[Min Num Comments: 0] Total posts: 397411
+[Min Num Comments: 1] Total posts: 305755
+[Min Num Comments: 5] Total posts: 178520
+[Min Num Comments: 10] Total posts: 105941
+[Min Num Comments: 15] Total posts: 71357
+[Min Num Comments: 20] Total posts: 52989
+[Min Num Comments: 50] Total posts: 20439
+[Min Num Comments: 100] Total posts: 9219
