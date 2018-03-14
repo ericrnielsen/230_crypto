@@ -1,2 +1,6 @@
 
 data/embeddings/GoogleNews-vectors-negative300.bin
+models/baseline/.DS_Store
+models/baseline/.ipynb_checkpoints/reddit_new_hourly-checkpoint.ipynb
+models/baseline/.ipynb_checkpoints/reddit_new_hourly2-checkpoint.ipynb
+models/baseline/.ipynb_checkpoints/reddit_new_hourly-checkpoint.ipynb

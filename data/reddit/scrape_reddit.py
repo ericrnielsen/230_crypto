@@ -161,7 +161,7 @@ def main():
     #################################
     # JUST TO COMBINE DATA
     #################################
-    if (True):
+    if (False):
         combine_subreddits(None, min_score=10, min_comments=None)
 
     #################################
@@ -169,6 +169,14 @@ def main():
     #################################
     if (False):
         check_thresholds()
+
+    #################################
+    # SAVING ONLY HEADLINES
+    #################################
+    if (True):
+        subs_df = pd.read_csv(RAW_FILEPATH + "score10_all_sub_raw.csv")
+        titles = subs_df['title']
+        titles.to_csv(RAW_FILEPATH + "reddit_all_titles.csv")
 
 if __name__ == '__main__':
 	main()
