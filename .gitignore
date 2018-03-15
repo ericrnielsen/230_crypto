@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -105,3 +106,14 @@ venv.bak/
 
 # Mac OS
 .DS_Store
+=======
+
+data/embeddings/GoogleNews-vectors-negative300.bin
+models/baseline/.DS_Store
+models/baseline/.ipynb_checkpoints/reddit_new_hourly-checkpoint.ipynb
+models/baseline/.ipynb_checkpoints/reddit_new_hourly2-checkpoint.ipynb
+models/baseline/.ipynb_checkpoints/reddit_new_hourly-checkpoint.ipynb
+models/.DS_Store
+models/baseline/.DS_Store
+models/baseline/.ipynb_checkpoints/reddit_hourly-checkpoint.ipynb
+>>>>>>> fdd5bf2e48d406811ca510d74a2cccf38578e1ef

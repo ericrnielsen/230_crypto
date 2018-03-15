@@ -32,7 +32,7 @@ def get_unix_dates(start_date, end_date):
 ############################################################################
 # Scrape single subreddit and save to csv file
 ############################################################################
-def scrape_subreddit(sub_name, start, end):
+def scrape_subreddit(reddit, sub_name, start, end):
 
     # Just for printing
     print "Starting r.%s" % sub_name.upper()
@@ -51,7 +51,7 @@ def scrape_subreddit(sub_name, start, end):
 
         # Get post date, title, score, and num comments; append to master data list
         temp_dict = {}
-        temp_dict["date"] = datetime.fromtimestamp(post.created).strftime('%m/%d/%Y')
+        temp_dict["date"] = datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d %H:%M:%S')
         temp_dict["title"] = post.title.encode("utf8")
         temp_dict["score"] = post.score
         temp_dict["num_comments"] = post.num_comments
@@ -68,7 +68,7 @@ def scrape_subreddit(sub_name, start, end):
 
     # Store the list of data in a Pandas dataframe, save to csv
     sub_df = pd.DataFrame(data)
-    sub_df.to_csv(RAW_FILEPATH + ALL_SUB_RAW_FILE)
+    sub_df.to_csv(RAW_FILEPATH + sub_name + "_sub_raw.csv")
 
     # Return df
     return sub_df
@@ -102,7 +102,7 @@ def combine_subreddits(frames, min_score, min_comments):
     # Sort values in df by descending date
     subs_df['date'] = pd.to_datetime(subs_df['date'])   # Convert date column to datetime objs
     subs_df = subs_df.sort_values(['date'], ascending=[False])           # Sort by descending date
-    subs_df['date'] = subs_df['date'].dt.strftime('%m/%d/%Y')   # Convert dates back to strings
+    subs_df['date'] = subs_df['date'].strftime('%Y-%m-%d %H:%M:%S')   # Convert dates back to strings
     subs_df.reset_index(drop=True)                      # Re-index
 
     # Save all posts to a single raw file
@@ -152,16 +152,16 @@ def main():
         # Loop through all subreddits
         frames = []
         for sub_name in SUBREDDITS:  
-            sub_df = scrape_subreddit(sub_name, start_unix, end_unix)
+            sub_df = scrape_subreddit(reddit, sub_name, start_unix, end_unix)
             frames.append(sub_df)
 
         # Combine into single raw datafile
-        combine_subreddits(frames)
+        combine_subreddits(frames, in_score=10, min_comments=None)
 
     #################################
     # JUST TO COMBINE DATA
     #################################
-    if (True):
+    if (False):
         combine_subreddits(None, min_score=10, min_comments=None)
 
     #################################
@@ -169,6 +169,14 @@ def main():
     #################################
     if (False):
         check_thresholds()
+
+    #################################
+    # SAVING ONLY HEADLINES
+    #################################
+    if (True):
+        subs_df = pd.read_csv(RAW_FILEPATH + "score10_all_sub_raw.csv")
+        titles = subs_df['title']
+        titles.to_csv(RAW_FILEPATH + "reddit_all_titles.csv")
 
 if __name__ == '__main__':
 	main()
