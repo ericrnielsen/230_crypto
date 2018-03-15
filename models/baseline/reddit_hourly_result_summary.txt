@@ -1,74 +1,131 @@
-#################################################################
-PREDICTIONS +1 HOUR IN FUTURE:
-#################################################################
+***** PREDICTIONS +1hr IN FUTURE *****
+
 Num ACTUAL in top 20% (change >= 0.99%): 1881
-[05 epoch train] Above cutoff: 0 (0.00%), Positive: 1069 (56.83%)
-[10 epoch train] Above cutoff: 8 (0.43%), Positive: 1015 (53.96%)
-[15 epoch train] Above cutoff: 15 (0.80%), Positive: 974 (51.78%)
-[20 epoch train] Above cutoff: 11 (0.58%), Positive: 879 (46.73%)
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1069 (56.83%)
+[10 epochs train] Above cutoff: 8 (0.43%), Positive: 1015 (53.96%)
+[15 epochs train] Above cutoff: 15 (0.80%), Positive: 974 (51.78%)
+[20 epochs train] Above cutoff: 11 (0.58%), Positive: 879 (46.73%)
+[25 epochs train] Above cutoff: 20 (1.06%), Positive: 911 (48.43%)
+[30 epochs train] Above cutoff: 16 (0.85%), Positive: 899 (47.79%)
+[35 epochs train] Above cutoff: 29 (1.54%), Positive: 940 (49.97%)
+[40 epochs train] Above cutoff: 28 (1.49%), Positive: 925 (49.18%)
+[45 epochs train] Above cutoff: 35 (1.86%), Positive: 895 (47.58%)
+[50 epochs train] Above cutoff: 36 (1.91%), Positive: 930 (49.44%)
 
 Num ACTUAL in bottom 20% (change <= -0.76%): 1881
-[05 epoch train] Below cutoff: 0 (0.00%), Negative: 776 (41.25%)
-[10 epoch train] Below cutoff: 11 (0.58%), Negative: 889 (47.26%)
-[15 epoch train] Below cutoff: 15 (0.80%), Negative: 908 (48.27%)
-[20 epoch train] Below cutoff: 46 (2.45%), Negative: 972 (51.67%)
+[05 epochs train] Below cutoff: 0 (0.00%), Negative: 776 (41.25%)
+[10 epochs train] Below cutoff: 11 (0.58%), Negative: 889 (47.26%)
+[15 epochs train] Below cutoff: 15 (0.80%), Negative: 908 (48.27%)
+[20 epochs train] Below cutoff: 46 (2.45%), Negative: 972 (51.67%)
+[25 epochs train] Below cutoff: 52 (2.76%), Negative: 944 (50.19%)
+[30 epochs train] Below cutoff: 54 (2.87%), Negative: 959 (50.98%)
+[35 epochs train] Below cutoff: 60 (3.19%), Negative: 919 (48.86%)
+[40 epochs train] Below cutoff: 75 (3.99%), Negative: 932 (49.55%)
+[45 epochs train] Below cutoff: 79 (4.20%), Negative: 962 (51.14%)
+[50 epochs train] Below cutoff: 67 (3.56%), Negative: 943 (50.13%)
 
-#################################################################
-PREDICTIONS +2 HOUR IN FUTURE:
-#################################################################
+***** PREDICTIONS +2hr IN FUTURE *****
+
 Num ACTUAL in top 20% (change >= 1.40%): 1871
-[05 epoch train] Above cutoff: 0 (0.00%), Positive: 1000 (53.45%)
-[10 epoch train] Above cutoff: 34 (1.82%), Positive: 998 (53.34%)
-[15 epoch train] Above cutoff: 52 (2.78%), Positive: 996 (53.23%)
-[20 epoch train] Above cutoff: 64 (3.42%), Positive: 908 (48.53%)
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1000 (53.45%)
+[10 epochs train] Above cutoff: 34 (1.82%), Positive: 998 (53.34%)
+[15 epochs train] Above cutoff: 52 (2.78%), Positive: 996 (53.23%)
+[20 epochs train] Above cutoff: 64 (3.42%), Positive: 908 (48.53%)
+[25 epochs train] Above cutoff: 78 (4.17%), Positive: 919 (49.12%)
+[30 epochs train] Above cutoff: 87 (4.65%), Positive: 931 (49.76%)
+[35 epochs train] Above cutoff: 89 (4.76%), Positive: 961 (51.36%)
+[40 epochs train] Above cutoff: 74 (3.96%), Positive: 921 (49.23%)
+[45 epochs train] Above cutoff: 100 (5.34%), Positive: 937 (50.08%)
+[50 epochs train] Above cutoff: 107 (5.72%), Positive: 939 (50.19%)
 
 Num ACTUAL in bottom 20% (change <= -1.14%): 1875
-[05 epoch train] Below cutoff: 3 (0.16%), Negative: 827 (44.11%)
-[10 epoch train] Below cutoff: 37 (1.97%), Negative: 838 (44.69%)
-[15 epoch train] Below cutoff: 62 (3.31%), Negative: 848 (45.23%)
-[20 epoch train] Below cutoff: 114 (6.08%), Negative: 890 (47.47%)
+[05 epochs train] Below cutoff: 3 (0.16%), Negative: 827 (44.11%)
+[10 epochs train] Below cutoff: 37 (1.97%), Negative: 838 (44.69%)
+[15 epochs train] Below cutoff: 62 (3.31%), Negative: 848 (45.23%)
+[20 epochs train] Below cutoff: 114 (6.08%), Negative: 890 (47.47%)
+[25 epochs train] Below cutoff: 121 (6.45%), Negative: 903 (48.16%)
+[30 epochs train] Below cutoff: 135 (7.20%), Negative: 901 (48.05%)
+[35 epochs train] Below cutoff: 130 (6.93%), Negative: 889 (47.41%)
+[40 epochs train] Below cutoff: 141 (7.52%), Negative: 937 (49.97%)
+[45 epochs train] Below cutoff: 144 (7.68%), Negative: 920 (49.07%)
+[50 epochs train] Below cutoff: 154 (8.21%), Negative: 920 (49.07%)
 
-#################################################################
-PREDICTIONS +6 HOUR IN FUTURE:
-#################################################################
+***** PREDICTIONS +6hr IN FUTURE *****
+
 Num ACTUAL in top 20% (change >= 2.60%): 1875
-[05 epoch train] Above cutoff: 1 (0.05%), Positive: 1138 (60.69%)
-[10 epoch train] Above cutoff: 107 (5.71%), Positive: 1075 (57.33%)
-[15 epoch train] Above cutoff: 157 (8.37%), Positive: 1011 (53.92%)
-[20 epoch train] Above cutoff: 188 (10.03%), Positive: 984 (52.48%)
+[05 epochs train] Above cutoff: 1 (0.05%), Positive: 1138 (60.69%)
+[10 epochs train] Above cutoff: 107 (5.71%), Positive: 1075 (57.33%)
+[15 epochs train] Above cutoff: 157 (8.37%), Positive: 1011 (53.92%)
+[20 epochs train] Above cutoff: 188 (10.03%), Positive: 984 (52.48%)
+[25 epochs train] Above cutoff: 194 (10.35%), Positive: 947 (50.51%)
+[30 epochs train] Above cutoff: 218 (11.63%), Positive: 946 (50.45%)
+[35 epochs train] Above cutoff: 224 (11.95%), Positive: 954 (50.88%)
+[40 epochs train] Above cutoff: 211 (11.25%), Positive: 938 (50.03%)
+[45 epochs train] Above cutoff: 229 (12.21%), Positive: 941 (50.19%)
+[50 epochs train] Above cutoff: 229 (12.21%), Positive: 952 (50.77%)
 
 Num ACTUAL in bottom 20% (change <= -1.65%): 1881
-[05 epoch train] Below cutoff: 23 (1.22%), Negative: 768 (40.83%)
-[10 epoch train] Below cutoff: 136 (7.23%), Negative: 843 (44.82%)
-[15 epoch train] Below cutoff: 255 (13.56%), Negative: 901 (47.90%)
-[20 epoch train] Below cutoff: 308 (16.37%), Negative: 927 (49.28%)
+[05 epochs train] Below cutoff: 23 (1.22%), Negative: 768 (40.83%)
+[10 epochs train] Below cutoff: 136 (7.23%), Negative: 843 (44.82%)
+[15 epochs train] Below cutoff: 255 (13.56%), Negative: 901 (47.90%)
+[20 epochs train] Below cutoff: 308 (16.37%), Negative: 927 (49.28%)
+[25 epochs train] Below cutoff: 345 (18.34%), Negative: 952 (50.61%)
+[30 epochs train] Below cutoff: 352 (18.71%), Negative: 939 (49.92%)
+[35 epochs train] Below cutoff: 340 (18.08%), Negative: 932 (49.55%)
+[40 epochs train] Below cutoff: 377 (20.04%), Negative: 950 (50.51%)
+[45 epochs train] Below cutoff: 386 (20.52%), Negative: 941 (50.03%)
+[50 epochs train] Below cutoff: 403 (21.42%), Negative: 936 (49.76%)
 
-#################################################################
-PREDICTIONS +12 HOUR IN FUTURE:
-#################################################################
+***** PREDICTIONS +12hr IN FUTURE *****
+
 Num ACTUAL in top 20% (change >= 3.83%): 1883
-[05 epoch train] Above cutoff: 3 (0.16%), Positive: 1170 (62.13%)
-[10 epoch train] Above cutoff: 113 (6.00%), Positive: 1070 (56.82%)
-[15 epoch train] Above cutoff: 163 (8.66%), Positive: 977 (51.89%)
-[20 epoch train] Above cutoff: 197 (10.46%), Positive: 959 (50.93%)
+[05 epochs train] Above cutoff: 3 (0.16%), Positive: 1170 (62.13%)
+[10 epochs train] Above cutoff: 113 (6.00%), Positive: 1070 (56.82%)
+[15 epochs train] Above cutoff: 163 (8.66%), Positive: 977 (51.89%)
+[20 epochs train] Above cutoff: 197 (10.46%), Positive: 959 (50.93%)
+[25 epochs train] Above cutoff: 223 (11.84%), Positive: 950 (50.45%)
+[30 epochs train] Above cutoff: 258 (13.70%), Positive: 974 (51.73%)
+[35 epochs train] Above cutoff: 249 (13.22%), Positive: 962 (51.09%)
+[40 epochs train] Above cutoff: 243 (12.90%), Positive: 946 (50.24%)
+[45 epochs train] Above cutoff: 252 (13.38%), Positive: 946 (50.24%)
+[50 epochs train] Above cutoff: 244 (12.96%), Positive: 972 (51.62%)
 
 Num ACTUAL in bottom 20% (change <= -2.47%): 1876
-[05 epoch train] Below cutoff: 12 (0.64%), Negative: 709 (37.79%)
-[10 epoch train] Below cutoff: 124 (6.61%), Negative: 777 (41.42%)
-[15 epoch train] Below cutoff: 256 (13.65%), Negative: 869 (46.32%)
-[20 epoch train] Below cutoff: 317 (16.90%), Negative: 895 (47.71%)
+[05 epochs train] Below cutoff: 12 (0.64%), Negative: 709 (37.79%)
+[10 epochs train] Below cutoff: 124 (6.61%), Negative: 777 (41.42%)
+[15 epochs train] Below cutoff: 256 (13.65%), Negative: 869 (46.32%)
+[20 epochs train] Below cutoff: 317 (16.90%), Negative: 895 (47.71%)
+[25 epochs train] Below cutoff: 324 (17.27%), Negative: 897 (47.81%)
+[30 epochs train] Below cutoff: 360 (19.19%), Negative: 858 (45.74%)
+[35 epochs train] Below cutoff: 363 (19.35%), Negative: 883 (47.07%)
+[40 epochs train] Below cutoff: 356 (18.98%), Negative: 916 (48.83%)
+[45 epochs train] Below cutoff: 380 (20.26%), Negative: 889 (47.39%)
+[50 epochs train] Below cutoff: 379 (20.20%), Negative: 883 (47.07%)
 
-#################################################################
-PREDICTIONS +24 HOUR IN FUTURE:
-#################################################################
+***** PREDICTIONS +24hr IN FUTURE *****
+
 Num ACTUAL in top 20% (change >= 6.07%): 1877
-[05 epoch train] Above cutoff: 2 (0.11%), Positive: 1267 (67.50%)
-[10 epoch train] Above cutoff: 104 (5.54%), Positive: 1095 (58.34%)
-[15 epoch train] Above cutoff: 150 (7.99%), Positive: 976 (52.00%)
-[20 epoch train] Above cutoff: 199 (10.60%), Positive: 976 (52.00%)
+[05 epochs train] Above cutoff: 2 (0.11%), Positive: 1267 (67.50%)
+[10 epochs train] Above cutoff: 104 (5.54%), Positive: 1095 (58.34%)
+[15 epochs train] Above cutoff: 150 (7.99%), Positive: 976 (52.00%)
+[20 epochs train] Above cutoff: 199 (10.60%), Positive: 976 (52.00%)
+[25 epochs train] Above cutoff: 218 (11.61%), Positive: 948 (50.51%)
+[30 epochs train] Above cutoff: 253 (13.48%), Positive: 976 (52.00%)
+[35 epochs train] Above cutoff: 253 (13.48%), Positive: 962 (51.25%)
+[40 epochs train] Above cutoff: 240 (12.79%), Positive: 948 (50.51%)
+[45 epochs train] Above cutoff: 269 (14.33%), Positive: 962 (51.25%)
+[50 epochs train] Above cutoff: 241 (12.84%), Positive: 990 (52.74%)
 
 Num ACTUAL in bottom 20% (change <= -2.89%): 1875
-[05 epoch train] Below cutoff: 20 (1.07%), Negative: 649 (34.61%)
-[10 epoch train] Below cutoff: 187 (9.97%), Negative: 751 (40.05%)
-[15 epoch train] Below cutoff: 350 (18.67%), Negative: 856 (45.65%)
-[20 epoch train] Below cutoff: 409 (21.81%), Negative: 864 (46.08%)
+[05 epochs train] Below cutoff: 20 (1.07%), Negative: 649 (34.61%)
+[10 epochs train] Below cutoff: 187 (9.97%), Negative: 751 (40.05%)
+[15 epochs train] Below cutoff: 350 (18.67%), Negative: 856 (45.65%)
+[20 epochs train] Below cutoff: 409 (21.81%), Negative: 864 (46.08%)
+[25 epochs train] Below cutoff: 444 (23.68%), Negative: 870 (46.40%)
+[30 epochs train] Below cutoff: 455 (24.27%), Negative: 855 (45.60%)
+[35 epochs train] Below cutoff: 451 (24.05%), Negative: 874 (46.61%)
+[40 epochs train] Below cutoff: 470 (25.07%), Negative: 922 (49.17%)
+[45 epochs train] Below cutoff: 456 (24.32%), Negative: 852 (45.44%)
+[50 epochs train] Below cutoff: 474 (25.28%), Negative: 845 (45.07%)
+
+​
