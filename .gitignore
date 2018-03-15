@@ -117,3 +117,7 @@ models/.DS_Store
 models/baseline/.DS_Store
 models/baseline/.ipynb_checkpoints/reddit_hourly-checkpoint.ipynb
 >>>>>>> fdd5bf2e48d406811ca510d74a2cccf38578e1ef
+models/baseline/checkpoints/backup/reddit-10epochs.hdf5
+models/baseline/checkpoints/backup/reddit-15epochs.hdf5
+models/baseline/checkpoints/backup/reddit-20epochs.hdf5
+models/baseline/checkpoints/backup/reddit-5epochs.hdf5
