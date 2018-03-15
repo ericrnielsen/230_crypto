@@ -24,6 +24,18 @@ Num ACTUAL in bottom 20% (change <= -0.76%): 1881
 [45 epochs train] Below cutoff: 79 (4.20%), Negative: 962 (51.14%)
 [50 epochs train] Below cutoff: 67 (3.56%), Negative: 943 (50.13%)
 
+Total days in test set: 28
+[05 epochs train] Correct aggregated predictions: 11 days (39.29%)
+[10 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[15 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[20 epochs train] Correct aggregated predictions: 10 days (35.71%)
+[25 epochs train] Correct aggregated predictions: 14 days (50.00%)
+[30 epochs train] Correct aggregated predictions: 12 days (42.86%)
+[35 epochs train] Correct aggregated predictions: 14 days (50.00%)
+[40 epochs train] Correct aggregated predictions: 8 days (28.57%)
+[45 epochs train] Correct aggregated predictions: 11 days (39.29%)
+[50 epochs train] Correct aggregated predictions: 10 days (35.71%)
+
 ***** PREDICTIONS +2hr IN FUTURE *****
 
 Num ACTUAL in top 20% (change >= 1.40%): 1871
@@ -49,6 +61,18 @@ Num ACTUAL in bottom 20% (change <= -1.14%): 1875
 [40 epochs train] Below cutoff: 141 (7.52%), Negative: 937 (49.97%)
 [45 epochs train] Below cutoff: 144 (7.68%), Negative: 920 (49.07%)
 [50 epochs train] Below cutoff: 154 (8.21%), Negative: 920 (49.07%)
+
+Total days in test set: 28
+[05 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[10 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[15 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[20 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[25 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[30 epochs train] Correct aggregated predictions: 17 days (60.71%)
+[35 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[40 epochs train] Correct aggregated predictions: 13 days (46.43%)
+[45 epochs train] Correct aggregated predictions: 17 days (60.71%)
+[50 epochs train] Correct aggregated predictions: 16 days (57.14%)
 
 ***** PREDICTIONS +6hr IN FUTURE *****
 
@@ -76,6 +100,18 @@ Num ACTUAL in bottom 20% (change <= -1.65%): 1881
 [45 epochs train] Below cutoff: 386 (20.52%), Negative: 941 (50.03%)
 [50 epochs train] Below cutoff: 403 (21.42%), Negative: 936 (49.76%)
 
+Total days in test set: 28
+[05 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[10 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[15 epochs train] Correct aggregated predictions: 17 days (60.71%)
+[20 epochs train] Correct aggregated predictions: 18 days (64.29%)
+[25 epochs train] Correct aggregated predictions: 13 days (46.43%)
+[30 epochs train] Correct aggregated predictions: 18 days (64.29%)
+[35 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[40 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[45 epochs train] Correct aggregated predictions: 13 days (46.43%)
+[50 epochs train] Correct aggregated predictions: 15 days (53.57%)
+
 ***** PREDICTIONS +12hr IN FUTURE *****
 
 Num ACTUAL in top 20% (change >= 3.83%): 1883
@@ -101,6 +137,18 @@ Num ACTUAL in bottom 20% (change <= -2.47%): 1876
 [40 epochs train] Below cutoff: 356 (18.98%), Negative: 916 (48.83%)
 [45 epochs train] Below cutoff: 380 (20.26%), Negative: 889 (47.39%)
 [50 epochs train] Below cutoff: 379 (20.20%), Negative: 883 (47.07%)
+
+Total days in test set: 28
+[05 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[10 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[15 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[20 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[25 epochs train] Correct aggregated predictions: 17 days (60.71%)
+[30 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[35 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[40 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[45 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[50 epochs train] Correct aggregated predictions: 14 days (50.00%)
 
 ***** PREDICTIONS +24hr IN FUTURE *****
 
@@ -128,4 +176,14 @@ Num ACTUAL in bottom 20% (change <= -2.89%): 1875
 [45 epochs train] Below cutoff: 456 (24.32%), Negative: 852 (45.44%)
 [50 epochs train] Below cutoff: 474 (25.28%), Negative: 845 (45.07%)
 
-​
+Total days in test set: 28
+[05 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[10 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[15 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[20 epochs train] Correct aggregated predictions: 16 days (57.14%)
+[25 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[30 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[35 epochs train] Correct aggregated predictions: 15 days (53.57%)
+[40 epochs train] Correct aggregated predictions: 12 days (42.86%)
+[45 epochs train] Correct aggregated predictions: 14 days (50.00%)
+[50 epochs train] Correct aggregated predictions: 13 days (46.43%)
