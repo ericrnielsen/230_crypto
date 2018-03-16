@@ -24,17 +24,17 @@ Num ACTUAL in bottom 20% (change <= -0.76%): 1881
 [45 epochs train] Below cutoff: 28 (1.49%), Negative: 881 (46.84%)
 [50 epochs train] Below cutoff: 33 (1.75%), Negative: 949 (50.45%)
 
-Total days in test set: 28
-[05 epochs train] Correct aggregated predictions: 12 days (42.86%)
-[10 epochs train] Correct aggregated predictions: 12 days (42.86%)
-[15 epochs train] Correct aggregated predictions: 12 days (42.86%)
-[20 epochs train] Correct aggregated predictions: 14 days (50.00%)
-[25 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[30 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[35 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[40 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[45 epochs train] Correct aggregated predictions: 13 days (46.43%)
-[50 epochs train] Correct aggregated predictions: 13 days (46.43%)
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 341 hours (50.90%)
+[10 epochs train] Correct aggregated predictions: 355 hours (52.99%)
+[15 epochs train] Correct aggregated predictions: 340 hours (50.75%)
+[20 epochs train] Correct aggregated predictions: 333 hours (49.70%)
+[25 epochs train] Correct aggregated predictions: 337 hours (50.30%)
+[30 epochs train] Correct aggregated predictions: 323 hours (48.21%)
+[35 epochs train] Correct aggregated predictions: 335 hours (50.00%)
+[40 epochs train] Correct aggregated predictions: 333 hours (49.70%)
+[45 epochs train] Correct aggregated predictions: 328 hours (48.96%)
+[50 epochs train] Correct aggregated predictions: 341 hours (50.90%)
 
 ***** PREDICTIONS +2hr IN FUTURE *****
 
@@ -62,17 +62,17 @@ Num ACTUAL in bottom 20% (change <= -1.14%): 1875
 [45 epochs train] Below cutoff: 80 (4.27%), Negative: 912 (48.64%)
 [50 epochs train] Below cutoff: 80 (4.27%), Negative: 863 (46.03%)
 
-Total days in test set: 28
-[05 epochs train] Correct aggregated predictions: 12 days (42.86%)
-[10 epochs train] Correct aggregated predictions: 14 days (50.00%)
-[15 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[20 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[25 epochs train] Correct aggregated predictions: 15 days (53.57%)
-[30 epochs train] Correct aggregated predictions: 12 days (42.86%)
-[35 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[40 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[45 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[50 epochs train] Correct aggregated predictions: 19 days (67.86%)
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 332 hours (49.55%)
+[10 epochs train] Correct aggregated predictions: 334 hours (49.85%)
+[15 epochs train] Correct aggregated predictions: 333 hours (49.70%)
+[20 epochs train] Correct aggregated predictions: 358 hours (53.43%)
+[25 epochs train] Correct aggregated predictions: 345 hours (51.49%)
+[30 epochs train] Correct aggregated predictions: 326 hours (48.66%)
+[35 epochs train] Correct aggregated predictions: 349 hours (52.09%)
+[40 epochs train] Correct aggregated predictions: 346 hours (51.64%)
+[45 epochs train] Correct aggregated predictions: 355 hours (52.99%)
+[50 epochs train] Correct aggregated predictions: 353 hours (52.69%)
 
 ***** PREDICTIONS +6hr IN FUTURE *****
 
@@ -100,17 +100,17 @@ Num ACTUAL in bottom 20% (change <= -1.65%): 1881
 [45 epochs train] Below cutoff: 282 (14.99%), Negative: 878 (46.68%)
 [50 epochs train] Below cutoff: 301 (16.00%), Negative: 897 (47.69%)
 
-Total days in test set: 28
-[05 epochs train] Correct aggregated predictions: 10 days (35.71%)
-[10 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[15 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[20 epochs train] Correct aggregated predictions: 15 days (53.57%)
-[25 epochs train] Correct aggregated predictions: 20 days (71.43%)
-[30 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[35 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[40 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[45 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[50 epochs train] Correct aggregated predictions: 15 days (53.57%)
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 312 hours (46.57%)
+[10 epochs train] Correct aggregated predictions: 362 hours (54.03%)
+[15 epochs train] Correct aggregated predictions: 341 hours (50.90%)
+[20 epochs train] Correct aggregated predictions: 355 hours (52.99%)
+[25 epochs train] Correct aggregated predictions: 338 hours (50.45%)
+[30 epochs train] Correct aggregated predictions: 346 hours (51.64%)
+[35 epochs train] Correct aggregated predictions: 341 hours (50.90%)
+[40 epochs train] Correct aggregated predictions: 346 hours (51.64%)
+[45 epochs train] Correct aggregated predictions: 345 hours (51.49%)
+[50 epochs train] Correct aggregated predictions: 346 hours (51.64%)
 
 ***** PREDICTIONS +12hr IN FUTURE *****
 
@@ -138,17 +138,17 @@ Num ACTUAL in bottom 20% (change <= -2.47%): 1876
 [45 epochs train] Below cutoff: 287 (15.30%), Negative: 861 (45.90%)
 [50 epochs train] Below cutoff: 301 (16.04%), Negative: 874 (46.59%)
 
-Total days in test set: 28
-[05 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[10 epochs train] Correct aggregated predictions: 15 days (53.57%)
-[15 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[20 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[25 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[30 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[35 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[40 epochs train] Correct aggregated predictions: 19 days (67.86%)
-[45 epochs train] Correct aggregated predictions: 15 days (53.57%)
-[50 epochs train] Correct aggregated predictions: 15 days (53.57%)
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 344 hours (51.34%)
+[10 epochs train] Correct aggregated predictions: 360 hours (53.73%)
+[15 epochs train] Correct aggregated predictions: 347 hours (51.79%)
+[20 epochs train] Correct aggregated predictions: 353 hours (52.69%)
+[25 epochs train] Correct aggregated predictions: 348 hours (51.94%)
+[30 epochs train] Correct aggregated predictions: 352 hours (52.54%)
+[35 epochs train] Correct aggregated predictions: 357 hours (53.28%)
+[40 epochs train] Correct aggregated predictions: 334 hours (49.85%)
+[45 epochs train] Correct aggregated predictions: 345 hours (51.49%)
+[50 epochs train] Correct aggregated predictions: 349 hours (52.09%)
 
 ***** PREDICTIONS +24hr IN FUTURE *****
 
@@ -176,14 +176,14 @@ Num ACTUAL in bottom 20% (change <= -2.89%): 1875
 [45 epochs train] Below cutoff: 382 (20.37%), Negative: 825 (44.00%)
 [50 epochs train] Below cutoff: 401 (21.39%), Negative: 857 (45.71%)
 
-Total days in test set: 28
-[05 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[10 epochs train] Correct aggregated predictions: 16 days (57.14%)
-[15 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[20 epochs train] Correct aggregated predictions: 17 days (60.71%)
-[25 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[30 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[35 epochs train] Correct aggregated predictions: 15 days (53.57%)
-[40 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[45 epochs train] Correct aggregated predictions: 18 days (64.29%)
-[50 epochs train] Correct aggregated predictions: 18 days (64.29%)
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 368 hours (54.93%)
+[10 epochs train] Correct aggregated predictions: 358 hours (53.43%)
+[15 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[20 epochs train] Correct aggregated predictions: 357 hours (53.28%)
+[25 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[30 epochs train] Correct aggregated predictions: 362 hours (54.03%)
+[35 epochs train] Correct aggregated predictions: 341 hours (50.90%)
+[40 epochs train] Correct aggregated predictions: 343 hours (51.19%)
+[45 epochs train] Correct aggregated predictions: 360 hours (53.73%)
+[50 epochs train] Correct aggregated predictions: 335 hours (50.00%)
