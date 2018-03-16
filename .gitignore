@@ -122,3 +122,4 @@ models/baseline/checkpoints/backup/reddit-15epochs.hdf5
 models/baseline/checkpoints/backup/reddit-20epochs.hdf5
 models/baseline/checkpoints/backup/reddit-5epochs.hdf5
 models/baseline/.DS_Store
+models/baseline/.DS_Store
