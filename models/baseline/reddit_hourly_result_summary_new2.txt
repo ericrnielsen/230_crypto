@@ -1,0 +1,189 @@
+***** PREDICTIONS +1hr IN FUTURE *****
+
+Num ACTUAL in top 20% (change >= 0.99%): 1881
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1007 (53.54%)
+[10 epochs train] Above cutoff: 0 (0.00%), Positive: 1142 (60.71%)
+[15 epochs train] Above cutoff: 2 (0.11%), Positive: 981 (52.15%)
+[20 epochs train] Above cutoff: 12 (0.64%), Positive: 937 (49.81%)
+[25 epochs train] Above cutoff: 10 (0.53%), Positive: 869 (46.20%)
+[30 epochs train] Above cutoff: 13 (0.69%), Positive: 881 (46.84%)
+[35 epochs train] Above cutoff: 20 (1.06%), Positive: 1029 (54.70%)
+[40 epochs train] Above cutoff: 19 (1.01%), Positive: 1011 (53.75%)
+[45 epochs train] Above cutoff: 17 (0.90%), Positive: 858 (45.61%)
+[50 epochs train] Above cutoff: 22 (1.17%), Positive: 857 (45.56%)
+
+Num ACTUAL in bottom 20% (change <= -0.76%): 1881
+[05 epochs train] Below cutoff: 0 (0.00%), Negative: 822 (43.70%)
+[10 epochs train] Below cutoff: 0 (0.00%), Negative: 731 (38.86%)
+[15 epochs train] Below cutoff: 11 (0.58%), Negative: 851 (45.24%)
+[20 epochs train] Below cutoff: 15 (0.80%), Negative: 914 (48.59%)
+[25 epochs train] Below cutoff: 22 (1.17%), Negative: 967 (51.41%)
+[30 epochs train] Below cutoff: 36 (1.91%), Negative: 961 (51.09%)
+[35 epochs train] Below cutoff: 31 (1.65%), Negative: 847 (45.03%)
+[40 epochs train] Below cutoff: 39 (2.07%), Negative: 861 (45.77%)
+[45 epochs train] Below cutoff: 62 (3.30%), Negative: 1001 (53.22%)
+[50 epochs train] Below cutoff: 62 (3.30%), Negative: 978 (51.99%)
+
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 311 hours (46.42%)
+[10 epochs train] Correct aggregated predictions: 341 hours (50.90%)
+[15 epochs train] Correct aggregated predictions: 323 hours (48.21%)
+[20 epochs train] Correct aggregated predictions: 331 hours (49.40%)
+[25 epochs train] Correct aggregated predictions: 318 hours (47.46%)
+[30 epochs train] Correct aggregated predictions: 321 hours (47.91%)
+[35 epochs train] Correct aggregated predictions: 327 hours (48.81%)
+[40 epochs train] Correct aggregated predictions: 334 hours (49.85%)
+[45 epochs train] Correct aggregated predictions: 314 hours (46.87%)
+[50 epochs train] Correct aggregated predictions: 331 hours (49.40%)
+
+***** PREDICTIONS +2hr IN FUTURE *****
+
+Num ACTUAL in top 20% (change >= 1.40%): 1871
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1256 (67.13%)
+[10 epochs train] Above cutoff: 4 (0.21%), Positive: 1043 (55.75%)
+[15 epochs train] Above cutoff: 16 (0.86%), Positive: 944 (50.45%)
+[20 epochs train] Above cutoff: 49 (2.62%), Positive: 955 (51.04%)
+[25 epochs train] Above cutoff: 44 (2.35%), Positive: 899 (48.05%)
+[30 epochs train] Above cutoff: 75 (4.01%), Positive: 956 (51.10%)
+[35 epochs train] Above cutoff: 70 (3.74%), Positive: 939 (50.19%)
+[40 epochs train] Above cutoff: 89 (4.76%), Positive: 991 (52.97%)
+[45 epochs train] Above cutoff: 69 (3.69%), Positive: 874 (46.71%)
+[50 epochs train] Above cutoff: 68 (3.63%), Positive: 921 (49.23%)
+
+Num ACTUAL in bottom 20% (change <= -1.14%): 1875
+[05 epochs train] Below cutoff: 0 (0.00%), Negative: 566 (30.19%)
+[10 epochs train] Below cutoff: 5 (0.27%), Negative: 804 (42.88%)
+[15 epochs train] Below cutoff: 35 (1.87%), Negative: 870 (46.40%)
+[20 epochs train] Below cutoff: 65 (3.47%), Negative: 865 (46.13%)
+[25 epochs train] Below cutoff: 74 (3.95%), Negative: 908 (48.43%)
+[30 epochs train] Below cutoff: 91 (4.85%), Negative: 866 (46.19%)
+[35 epochs train] Below cutoff: 101 (5.39%), Negative: 878 (46.83%)
+[40 epochs train] Below cutoff: 100 (5.33%), Negative: 853 (45.49%)
+[45 epochs train] Below cutoff: 126 (6.72%), Negative: 951 (50.72%)
+[50 epochs train] Below cutoff: 121 (6.45%), Negative: 930 (49.60%)
+
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 352 hours (52.54%)
+[10 epochs train] Correct aggregated predictions: 340 hours (50.75%)
+[15 epochs train] Correct aggregated predictions: 352 hours (52.54%)
+[20 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[25 epochs train] Correct aggregated predictions: 340 hours (50.75%)
+[30 epochs train] Correct aggregated predictions: 340 hours (50.75%)
+[35 epochs train] Correct aggregated predictions: 338 hours (50.45%)
+[40 epochs train] Correct aggregated predictions: 342 hours (51.04%)
+[45 epochs train] Correct aggregated predictions: 320 hours (47.76%)
+[50 epochs train] Correct aggregated predictions: 335 hours (50.00%)
+
+***** PREDICTIONS +6hr IN FUTURE *****
+
+Num ACTUAL in top 20% (change >= 2.60%): 1875
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1164 (62.08%)
+[10 epochs train] Above cutoff: 15 (0.80%), Positive: 1011 (53.92%)
+[15 epochs train] Above cutoff: 77 (4.11%), Positive: 1003 (53.49%)
+[20 epochs train] Above cutoff: 139 (7.41%), Positive: 973 (51.89%)
+[25 epochs train] Above cutoff: 150 (8.00%), Positive: 954 (50.88%)
+[30 epochs train] Above cutoff: 164 (8.75%), Positive: 968 (51.63%)
+[35 epochs train] Above cutoff: 178 (9.49%), Positive: 968 (51.63%)
+[40 epochs train] Above cutoff: 194 (10.35%), Positive: 995 (53.07%)
+[45 epochs train] Above cutoff: 182 (9.71%), Positive: 935 (49.87%)
+[50 epochs train] Above cutoff: 196 (10.45%), Positive: 944 (50.35%)
+
+Num ACTUAL in bottom 20% (change <= -1.65%): 1881
+[05 epochs train] Below cutoff: 2 (0.11%), Negative: 686 (36.47%)
+[10 epochs train] Below cutoff: 82 (4.36%), Negative: 906 (48.17%)
+[15 epochs train] Below cutoff: 185 (9.84%), Negative: 905 (48.11%)
+[20 epochs train] Below cutoff: 278 (14.78%), Negative: 924 (49.12%)
+[25 epochs train] Below cutoff: 296 (15.74%), Negative: 929 (49.39%)
+[30 epochs train] Below cutoff: 303 (16.11%), Negative: 897 (47.69%)
+[35 epochs train] Below cutoff: 321 (17.07%), Negative: 943 (50.13%)
+[40 epochs train] Below cutoff: 311 (16.53%), Negative: 917 (48.75%)
+[45 epochs train] Below cutoff: 353 (18.77%), Negative: 938 (49.87%)
+[50 epochs train] Below cutoff: 369 (19.62%), Negative: 937 (49.81%)
+
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[10 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[15 epochs train] Correct aggregated predictions: 359 hours (53.58%)
+[20 epochs train] Correct aggregated predictions: 349 hours (52.09%)
+[25 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[30 epochs train] Correct aggregated predictions: 340 hours (50.75%)
+[35 epochs train] Correct aggregated predictions: 339 hours (50.60%)
+[40 epochs train] Correct aggregated predictions: 354 hours (52.84%)
+[45 epochs train] Correct aggregated predictions: 327 hours (48.81%)
+[50 epochs train] Correct aggregated predictions: 349 hours (52.09%)
+
+***** PREDICTIONS +12hr IN FUTURE *****
+
+Num ACTUAL in top 20% (change >= 3.83%): 1883
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1437 (76.31%)
+[10 epochs train] Above cutoff: 22 (1.17%), Positive: 1042 (55.34%)
+[15 epochs train] Above cutoff: 92 (4.89%), Positive: 1078 (57.25%)
+[20 epochs train] Above cutoff: 164 (8.71%), Positive: 1040 (55.23%)
+[25 epochs train] Above cutoff: 185 (9.82%), Positive: 1020 (54.17%)
+[30 epochs train] Above cutoff: 219 (11.63%), Positive: 1033 (54.86%)
+[35 epochs train] Above cutoff: 218 (11.58%), Positive: 993 (52.73%)
+[40 epochs train] Above cutoff: 257 (13.65%), Positive: 1021 (54.22%)
+[45 epochs train] Above cutoff: 236 (12.53%), Positive: 968 (51.41%)
+[50 epochs train] Above cutoff: 227 (12.06%), Positive: 978 (51.94%)
+
+Num ACTUAL in bottom 20% (change <= -2.47%): 1876
+[05 epochs train] Below cutoff: 1 (0.05%), Negative: 422 (22.49%)
+[10 epochs train] Below cutoff: 63 (3.36%), Negative: 853 (45.47%)
+[15 epochs train] Below cutoff: 171 (9.12%), Negative: 816 (43.50%)
+[20 epochs train] Below cutoff: 257 (13.70%), Negative: 878 (46.80%)
+[25 epochs train] Below cutoff: 266 (14.18%), Negative: 903 (48.13%)
+[30 epochs train] Below cutoff: 279 (14.87%), Negative: 878 (46.80%)
+[35 epochs train] Below cutoff: 328 (17.48%), Negative: 926 (49.36%)
+[40 epochs train] Below cutoff: 303 (16.15%), Negative: 875 (46.64%)
+[45 epochs train] Below cutoff: 340 (18.12%), Negative: 910 (48.51%)
+[50 epochs train] Below cutoff: 345 (18.39%), Negative: 921 (49.09%)
+
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 378 hours (56.42%)
+[10 epochs train] Correct aggregated predictions: 353 hours (52.69%)
+[15 epochs train] Correct aggregated predictions: 361 hours (53.88%)
+[20 epochs train] Correct aggregated predictions: 352 hours (52.54%)
+[25 epochs train] Correct aggregated predictions: 352 hours (52.54%)
+[30 epochs train] Correct aggregated predictions: 351 hours (52.39%)
+[35 epochs train] Correct aggregated predictions: 365 hours (54.48%)
+[40 epochs train] Correct aggregated predictions: 361 hours (53.88%)
+[45 epochs train] Correct aggregated predictions: 352 hours (52.54%)
+[50 epochs train] Correct aggregated predictions: 361 hours (53.88%)
+
+***** PREDICTIONS +24hr IN FUTURE *****
+
+Num ACTUAL in top 20% (change >= 6.07%): 1877
+[05 epochs train] Above cutoff: 0 (0.00%), Positive: 1613 (85.94%)
+[10 epochs train] Above cutoff: 14 (0.75%), Positive: 1038 (55.30%)
+[15 epochs train] Above cutoff: 87 (4.64%), Positive: 1054 (56.15%)
+[20 epochs train] Above cutoff: 141 (7.51%), Positive: 1034 (55.09%)
+[25 epochs train] Above cutoff: 163 (8.68%), Positive: 996 (53.06%)
+[30 epochs train] Above cutoff: 194 (10.34%), Positive: 1031 (54.93%)
+[35 epochs train] Above cutoff: 208 (11.08%), Positive: 999 (53.22%)
+[40 epochs train] Above cutoff: 217 (11.56%), Positive: 1045 (55.67%)
+[45 epochs train] Above cutoff: 248 (13.21%), Positive: 957 (50.99%)
+[50 epochs train] Above cutoff: 234 (12.47%), Positive: 981 (52.26%)
+
+Num ACTUAL in bottom 20% (change <= -2.89%): 1875
+[05 epochs train] Below cutoff: 0 (0.00%), Negative: 210 (11.20%)
+[10 epochs train] Below cutoff: 104 (5.55%), Negative: 799 (42.61%)
+[15 epochs train] Below cutoff: 231 (12.32%), Negative: 779 (41.55%)
+[20 epochs train] Below cutoff: 321 (17.12%), Negative: 829 (44.21%)
+[25 epochs train] Below cutoff: 369 (19.68%), Negative: 858 (45.76%)
+[30 epochs train] Below cutoff: 365 (19.47%), Negative: 849 (45.28%)
+[35 epochs train] Below cutoff: 410 (21.87%), Negative: 882 (47.04%)
+[40 epochs train] Below cutoff: 381 (20.32%), Negative: 849 (45.28%)
+[45 epochs train] Below cutoff: 452 (24.11%), Negative: 870 (46.40%)
+[50 epochs train] Below cutoff: 428 (22.83%), Negative: 867 (46.24%)
+
+Total hours in test set: 670
+[05 epochs train] Correct aggregated predictions: 384 hours (57.31%)
+[10 epochs train] Correct aggregated predictions: 354 hours (52.84%)
+[15 epochs train] Correct aggregated predictions: 344 hours (51.34%)
+[20 epochs train] Correct aggregated predictions: 350 hours (52.24%)
+[25 epochs train] Correct aggregated predictions: 323 hours (48.21%)
+[30 epochs train] Correct aggregated predictions: 332 hours (49.55%)
+[35 epochs train] Correct aggregated predictions: 336 hours (50.15%)
+[40 epochs train] Correct aggregated predictions: 335 hours (50.00%)
+[45 epochs train] Correct aggregated predictions: 326 hours (48.66%)
+[50 epochs train] Correct aggregated predictions: 336 hours (50.15%)

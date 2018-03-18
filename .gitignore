@@ -133,3 +133,13 @@ models/baseline/checkpoints/pretrained_word2vec/reddit-40epochs.hdf5
 models/baseline/checkpoints/pretrained_word2vec/reddit-45epochs.hdf5
 models/baseline/checkpoints/pretrained_word2vec/reddit-50epochs.hdf5
 models/baseline/checkpoints/pretrained_word2vec/reddit-5epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-10epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-15epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-20epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-25epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-30epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-35epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-40epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-45epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-50epochs.hdf5
+models/baseline/checkpoints/custom1_word2vec/reddit-5epochs.hdf5
