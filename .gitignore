@@ -153,3 +153,13 @@ models/baseline/checkpoints/custom2_word2vec/reddit-40epochs.hdf5
 models/baseline/checkpoints/custom2_word2vec/reddit-45epochs.hdf5
 models/baseline/checkpoints/custom2_word2vec/reddit-50epochs.hdf5
 models/baseline/checkpoints/custom2_word2vec/reddit-5epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-10epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-15epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-20epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-25epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-30epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-35epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-40epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-45epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-50epochs.hdf5
+models/baseline/checkpoints/custom2_word2vec/headlines-5epochs.hdf5
