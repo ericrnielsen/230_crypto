@@ -18,6 +18,8 @@ def print_distribution(df, labels_column_name):
 def get_max_words(text_arr):
     max_words = 0
     for line in text_arr:
+        if not isinstance(line, str):
+            line = str(line)
         num_words = len(line.split())
         if num_words > max_words:
             max_words = num_words
